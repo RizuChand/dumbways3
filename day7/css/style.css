@@ -37,9 +37,9 @@ nav ul li:first-child {
 }
 
 nav ul li:hover {
-    font-size: large;
-    background-color: #e6dddc;
+    background-color: #bbdeec;
     cursor: pointer;
+    border-radius: 20px;
 }
 nav ul li a {
     
