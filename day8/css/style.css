@@ -8,9 +8,12 @@
 
 nav {
     display: flex;
+    width: 100%;
     justify-content: flex-start;
     background-color: #F4F3F3;
     padding: 10px;
+    position: fixed;
+    margin-top: -50px;
     
 }
 
@@ -28,8 +31,10 @@ nav img {
 }
 
 nav ul li {
+    /* background-color: tomato; */
     display: flex;
     align-items: center;
+    justify-content: center;
     list-style: none; 
 }
 nav ul li:first-child {
@@ -74,6 +79,8 @@ nav .btn-contact {
 
 
 .wrapper {
+    margin-top: 50px;
+    /* z-index: 999; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -87,7 +94,7 @@ nav .btn-contact {
     height: 80vh;
     margin: 80px;
     background-color: #FFFFFF;
-    border-radius: 30px;
+    border-radius: 20px;
 }
 
 .container {
@@ -216,18 +223,20 @@ nav img {
 .nav-menu {
     position: fixed;
     width: 100%;
-    left: 100%;
     top: 70px;
+    left: 100%;
     flex-direction: column;
     transition: 0.3s;
     background-color: #F4F3F3;
-    
+    padding-left: 0;
+    padding-right: 0;
 }
 
 
 .nav-menu.active {
     width: 100%;
-    left: 0;
+    left: 0px;
+   
 }
 
   .wrapper-child {
@@ -236,7 +245,7 @@ nav img {
     width: 95%;
     height: 100%;
     margin: 80px;
-    border-radius: 0;
+    border-radius: 10px;
   }
 
   .container {

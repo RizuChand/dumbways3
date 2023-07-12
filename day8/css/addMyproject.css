@@ -15,6 +15,9 @@ nav {
     justify-content: flex-start;
     background-color: #F4F3F3;
     padding: 10px;
+    width: 100%;
+    /* position: fixed; */
+    /* margin-top: -50px; */
     
 }
 
@@ -34,6 +37,7 @@ nav img {
 nav ul li {
     display: flex;
     align-items: center;
+    justify-content: center;
     list-style: none; 
 }
 nav ul li:first-child {
@@ -82,6 +86,7 @@ a{
     display: flex;
     justify-content: center;
     height: 100vh;
+    margin-top: 50px;
 }
 
 .wrapper-form {
