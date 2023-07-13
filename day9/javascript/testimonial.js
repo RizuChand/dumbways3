@@ -39,8 +39,9 @@ async function allData() {
                 dataTestimonial.forEach((item) => {
                     ul.innerHTML += `<li class="testimonial-item">
                         <div class="wrapper-testimonial-item">
+                            <p class="item-rating">${item.rating}<i class="fa fa-star"></i></p>
                             <img src="${item.img}" alt="gambar">
-                            <p>${item.comment}</p>
+                            <p class="item-comment">${item.comment}</p>
                             <span><i>${item.user}</i></span>
                             
                         </div>
@@ -65,8 +66,9 @@ function dataFilter(rating) {
     tempData.forEach((item) => {
         ul.innerHTML += `<li class="testimonial-item">
             <div class="wrapper-testimonial-item">
+            <p class="item-rating">${item.rating}<i class="fa fa-star"></i></p>
                 <img src="${item.img}" alt="gambar">
-                <p>${item.comment}</p>
+                <p class="item-comment">${item.comment}</p>
                 <span><i>${item.user}</i></span>
                 
             </div>
