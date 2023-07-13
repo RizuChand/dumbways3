@@ -90,9 +90,6 @@ a{
     margin: 50px;
 }
 
-.container-rating {
-    
-}
 
 .btn-rating {
     margin: 10px;
@@ -205,17 +202,6 @@ nav img {
     left: 0;
 }
 
-.container-testimoni {
-    /* width: 100%; */
-   
-}
-.wrapper-testimoni {
-    /* width: 100%; */
-}
-
-/* .testimonial{
-    width: 95%;
-} */
 .testimonial-item {
     width: 100%;
 }
